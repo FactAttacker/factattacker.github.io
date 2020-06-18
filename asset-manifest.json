@@ -1,14 +1,15 @@
 {
-  "main.css": "/static/css/main.e478111b.chunk.css",
-  "main.js": "/static/js/main.e3ba42a0.chunk.js",
-  "main.js.map": "/static/js/main.e3ba42a0.chunk.js.map",
-  "static/js/1.52a7d445.chunk.js": "/static/js/1.52a7d445.chunk.js",
-  "static/js/1.52a7d445.chunk.js.map": "/static/js/1.52a7d445.chunk.js.map",
+  "main.css": "/static/css/main.5c7c5da7.chunk.css",
+  "main.js": "/static/js/main.7de02404.chunk.js",
+  "main.js.map": "/static/js/main.7de02404.chunk.js.map",
+  "static/js/1.3c35295d.chunk.js": "/static/js/1.3c35295d.chunk.js",
+  "static/js/1.3c35295d.chunk.js.map": "/static/js/1.3c35295d.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
+  "static/media/pokemon.scss": "/static/media/Pokemon_GB.b5c5e5db.eot",
   "static/media/App.scss": "/static/media/windows10background.ddaadf40.jpg",
-  "static/css/main.e478111b.chunk.css.map": "/static/css/main.e478111b.chunk.css.map",
+  "static/css/main.5c7c5da7.chunk.css.map": "/static/css/main.5c7c5da7.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.8b9931aab8486fa1a57fcd3ad0c254ef.js": "/precache-manifest.8b9931aab8486fa1a57fcd3ad0c254ef.js",
+  "precache-manifest.c8298af51cf37bb179126fcd714a97c0.js": "/precache-manifest.c8298af51cf37bb179126fcd714a97c0.js",
   "service-worker.js": "/service-worker.js"
 }
