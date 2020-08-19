@@ -1,9 +1,9 @@
 {
-  "main.css": "/static/css/main.370c7d62.chunk.css",
-  "main.js": "/static/js/main.78cb0edd.chunk.js",
-  "main.js.map": "/static/js/main.78cb0edd.chunk.js.map",
-  "static/js/1.5a0ddaa5.chunk.js": "/static/js/1.5a0ddaa5.chunk.js",
-  "static/js/1.5a0ddaa5.chunk.js.map": "/static/js/1.5a0ddaa5.chunk.js.map",
+  "main.css": "/static/css/main.ad5dbfab.chunk.css",
+  "main.js": "/static/js/main.fcf2ea64.chunk.js",
+  "main.js.map": "/static/js/main.fcf2ea64.chunk.js.map",
+  "static/js/1.74ef02b8.chunk.js": "/static/js/1.74ef02b8.chunk.js",
+  "static/js/1.74ef02b8.chunk.js.map": "/static/js/1.74ef02b8.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
   "static/media/App.scss": "/static/media/windows10background.ddaadf40.jpg",
@@ -14,8 +14,8 @@
   "static/media/painter.scss": "/static/media/undo_icon.a6278998.png",
   "static/media/pokemon.scss": "/static/media/Pokemon_GB.a3392b86.svg",
   "static/media/map.png": "/static/media/map.1fe36664.png",
-  "static/css/main.370c7d62.chunk.css.map": "/static/css/main.370c7d62.chunk.css.map",
+  "static/css/main.ad5dbfab.chunk.css.map": "/static/css/main.ad5dbfab.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.cd33bdc1ca6e09cb7692d639a51f4a20.js": "/precache-manifest.cd33bdc1ca6e09cb7692d639a51f4a20.js",
+  "precache-manifest.51a05c22ac68e287a699a71e3793c5e3.js": "/precache-manifest.51a05c22ac68e287a699a71e3793c5e3.js",
   "service-worker.js": "/service-worker.js"
 }
