@@ -29,10 +29,6 @@ function createUnityInstance(canvas, config, onProgress) {
     },
     printErr: function (message) {
       document.getElementById("pokemon-loading").style.display = "block";
-      clearTimeout(loadingTime);
-      loadingTime = setTimeout(function(){
-        document.getElementById("pokemon-loading").style.display = "none";
-      }, 5000);
       console.error(message);
     },
     locateFile: function (url) {

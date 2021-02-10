@@ -3290,6 +3290,7 @@ function _JS_Log_Dump(ptr, type) {
   return;
  case 3:
  case 5:
+  document.getElementById("pokemon-loading").style.display = "none";
   console.log(str);
   return;
  default:
