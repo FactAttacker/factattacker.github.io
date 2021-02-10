@@ -1,9 +1,9 @@
 {
-  "main.css": "/static/css/main.142ecf15.chunk.css",
-  "main.js": "/static/js/main.269e595e.chunk.js",
-  "main.js.map": "/static/js/main.269e595e.chunk.js.map",
-  "static/js/1.7c4c4801.chunk.js": "/static/js/1.7c4c4801.chunk.js",
-  "static/js/1.7c4c4801.chunk.js.map": "/static/js/1.7c4c4801.chunk.js.map",
+  "main.css": "/static/css/main.0f763be4.chunk.css",
+  "main.js": "/static/js/main.06849ffb.chunk.js",
+  "main.js.map": "/static/js/main.06849ffb.chunk.js.map",
+  "static/js/1.0f4ba916.chunk.js": "/static/js/1.0f4ba916.chunk.js",
+  "static/js/1.0f4ba916.chunk.js.map": "/static/js/1.0f4ba916.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
   "static/media/App.scss": "/static/media/windows10background.ddaadf40.jpg",
@@ -12,10 +12,10 @@
   "static/media/intro.mp3": "/static/media/intro.908160e0.mp3",
   "static/media/start-hit.mp3": "/static/media/start-hit.c1c0d62a.mp3",
   "static/media/painter.scss": "/static/media/undo_icon.a6278998.png",
-  "static/media/pokemon.scss": "/static/media/Pokemon_GB.a3392b86.svg",
+  "static/media/pokemon.scss": "/static/media/Pokemon_GB.f4ffff86.ttf",
   "static/media/map.png": "/static/media/map.1fe36664.png",
-  "static/css/main.142ecf15.chunk.css.map": "/static/css/main.142ecf15.chunk.css.map",
+  "static/css/main.0f763be4.chunk.css.map": "/static/css/main.0f763be4.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.4b9d01c431ecd17e73d95dd68447d606.js": "/precache-manifest.4b9d01c431ecd17e73d95dd68447d606.js",
+  "precache-manifest.7115a5be59c002f8af607115efb27a4e.js": "/precache-manifest.7115a5be59c002f8af607115efb27a4e.js",
   "service-worker.js": "/service-worker.js"
 }
