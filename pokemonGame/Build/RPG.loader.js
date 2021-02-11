@@ -1,6 +1,6 @@
 function createUnityInstance(canvas, config, onProgress) {
   onProgress = onProgress || function () {};
-  let loadingTime;
+
   var Module = {
     canvas: canvas,
     webglContextAttributes: {
@@ -28,7 +28,6 @@ function createUnityInstance(canvas, config, onProgress) {
       console.log(message);
     },
     printErr: function (message) {
-      document.getElementById("pokemon-loading").style.display = "block";
       console.error(message);
     },
     locateFile: function (url) {
