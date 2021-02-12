@@ -3278,6 +3278,7 @@ function _JS_FileSystem_Sync() {
 }
 function _JS_Log_Dump(ptr, type) {
  var str = Pointer_stringify(ptr);
+ var loadingTime;
  if (typeof dump == "function") dump(str);
  switch (type) {
  case 0:
@@ -3290,6 +3291,10 @@ function _JS_Log_Dump(ptr, type) {
   return;
  case 3:
  case 5:
+    clearTimeout(loadingTime);
+    loadingTime = setTimeout(function(){
+        document.getElementById("pokemon-loading").style.display = "none";
+    }, 5000);
   console.log(str);
   return;
  default:
