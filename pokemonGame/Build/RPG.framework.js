@@ -1,5 +1,4 @@
 function unityFramework(Module) {
-var loadingTime;
 var Module = typeof Module !== "undefined" ? Module : {};
 var stackTraceReference = "(^|\\n)(\\s+at\\s+|)jsStackTrace(\\s+\\(|@)([^\\n]+):\\d+:\\d+(\\)|)(\\n|$)";
 var stackTraceReferenceMatch = jsStackTrace().match(new RegExp(stackTraceReference));
@@ -1297,7 +1296,7 @@ function _emscripten_asm_const_ii(code, a0) {
  return ASM_CONSTS[code](a0);
 }
 STATIC_BASE = GLOBAL_BASE;
-STATICTOP = STATIC_BASE + 2368624;
+STATICTOP = STATIC_BASE + 2368832;
 __ATINIT__.push({
  func: (function() {
   __GLOBAL__sub_I_AIScriptingClasses_cpp();
@@ -3227,7 +3226,7 @@ __ATINIT__.push({
   ___emscripten_environ_constructor();
  })
 });
-var STATIC_BUMP = 2368624;
+var STATIC_BUMP = 2368832;
 Module["STATIC_BASE"] = STATIC_BASE;
 Module["STATIC_BUMP"] = STATIC_BUMP;
 var tempDoublePtr = STATICTOP;
@@ -3291,10 +3290,9 @@ function _JS_Log_Dump(ptr, type) {
   return;
  case 3:
  case 5:
-    clearTimeout(loadingTime);
-    loadingTime = setTimeout(function(){
-        document.getElementById("pokemon-loading").style.display = "none";
-    }, 5000);
+  setTimeout(function(){
+    document.getElementById("pokemon-loading").style.display = "none";
+  }, 5000);
   console.log(str);
   return;
  default:
