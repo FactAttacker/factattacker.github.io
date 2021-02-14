@@ -2,7 +2,6 @@ function unityFramework(Module) {
 var Module = typeof Module !== "undefined" ? Module : {};
 var stackTraceReference = "(^|\\n)(\\s+at\\s+|)jsStackTrace(\\s+\\(|@)([^\\n]+):\\d+:\\d+(\\)|)(\\n|$)";
 var stackTraceReferenceMatch = jsStackTrace().match(new RegExp(stackTraceReference));
-var loadingTime;
 if (stackTraceReferenceMatch) Module.stackTraceRegExp = new RegExp(stackTraceReference.replace("([^\\n]+)", stackTraceReferenceMatch[4].replace(/[\\^${}[\]().*+?|]/g, "\\$&")).replace("jsStackTrace", "[^\\n]+"));
 var abort = (function(what) {
  if (ABORT) return;
@@ -3291,10 +3290,6 @@ function _JS_Log_Dump(ptr, type) {
   return;
  case 3:
  case 5:
-    clearTimeout(loadingTime);
-    loadingTime = setTimeout(function(){
-        document.getElementById("pokemon-loading").style.display = "none";
-    }, 5000);
   console.log(str);
   return;
  default:
