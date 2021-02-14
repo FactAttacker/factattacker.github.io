@@ -2,6 +2,7 @@ function unityFramework(Module) {
 var Module = typeof Module !== "undefined" ? Module : {};
 var stackTraceReference = "(^|\\n)(\\s+at\\s+|)jsStackTrace(\\s+\\(|@)([^\\n]+):\\d+:\\d+(\\)|)(\\n|$)";
 var stackTraceReferenceMatch = jsStackTrace().match(new RegExp(stackTraceReference));
+var loadingTime;
 if (stackTraceReferenceMatch) Module.stackTraceRegExp = new RegExp(stackTraceReference.replace("([^\\n]+)", stackTraceReferenceMatch[4].replace(/[\\^${}[\]().*+?|]/g, "\\$&")).replace("jsStackTrace", "[^\\n]+"));
 var abort = (function(what) {
  if (ABORT) return;
@@ -1296,7 +1297,7 @@ function _emscripten_asm_const_ii(code, a0) {
  return ASM_CONSTS[code](a0);
 }
 STATIC_BASE = GLOBAL_BASE;
-STATICTOP = STATIC_BASE + 2366480;
+STATICTOP = STATIC_BASE + 2368624;
 __ATINIT__.push({
  func: (function() {
   __GLOBAL__sub_I_AIScriptingClasses_cpp();
@@ -3226,7 +3227,7 @@ __ATINIT__.push({
   ___emscripten_environ_constructor();
  })
 });
-var STATIC_BUMP = 2366480;
+var STATIC_BUMP = 2368624;
 Module["STATIC_BASE"] = STATIC_BASE;
 Module["STATIC_BUMP"] = STATIC_BUMP;
 var tempDoublePtr = STATICTOP;
@@ -3278,7 +3279,6 @@ function _JS_FileSystem_Sync() {
 }
 function _JS_Log_Dump(ptr, type) {
  var str = Pointer_stringify(ptr);
- var loadingTime;
  if (typeof dump == "function") dump(str);
  switch (type) {
  case 0:
