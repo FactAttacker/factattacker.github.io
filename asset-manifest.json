@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.2b6348d2.chunk.css",
-  "main.js": "/static/js/main.332d2e74.chunk.js",
-  "main.js.map": "/static/js/main.332d2e74.chunk.js.map",
+  "main.css": "/static/css/main.fc1fe217.chunk.css",
+  "main.js": "/static/js/main.d7d3d322.chunk.js",
+  "main.js.map": "/static/js/main.d7d3d322.chunk.js.map",
   "static/js/1.0f4ba916.chunk.js": "/static/js/1.0f4ba916.chunk.js",
   "static/js/1.0f4ba916.chunk.js.map": "/static/js/1.0f4ba916.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
@@ -14,8 +14,8 @@
   "static/media/painter.scss": "/static/media/undo_icon.a6278998.png",
   "static/media/pokemon.scss": "/static/media/Pokemon_GB.a3392b86.svg",
   "static/media/map.png": "/static/media/map.1fe36664.png",
-  "static/css/main.2b6348d2.chunk.css.map": "/static/css/main.2b6348d2.chunk.css.map",
+  "static/css/main.fc1fe217.chunk.css.map": "/static/css/main.fc1fe217.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.35c3533591f3cacb74ade249cc92cbaa.js": "/precache-manifest.35c3533591f3cacb74ade249cc92cbaa.js",
+  "precache-manifest.4cb8cfc53010b072a5c3080631efdb42.js": "/precache-manifest.4cb8cfc53010b072a5c3080631efdb42.js",
   "service-worker.js": "/service-worker.js"
 }
