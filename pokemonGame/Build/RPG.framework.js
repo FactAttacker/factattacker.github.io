@@ -1296,7 +1296,7 @@ function _emscripten_asm_const_ii(code, a0) {
  return ASM_CONSTS[code](a0);
 }
 STATIC_BASE = GLOBAL_BASE;
-STATICTOP = STATIC_BASE + 2400128;
+STATICTOP = STATIC_BASE + 2401680;
 __ATINIT__.push({
  func: (function() {
   __GLOBAL__sub_I_AIScriptingClasses_cpp();
@@ -3226,7 +3226,7 @@ __ATINIT__.push({
   ___emscripten_environ_constructor();
  })
 });
-var STATIC_BUMP = 2400128;
+var STATIC_BUMP = 2401680;
 Module["STATIC_BASE"] = STATIC_BASE;
 Module["STATIC_BUMP"] = STATIC_BUMP;
 var tempDoublePtr = STATICTOP;
@@ -3292,7 +3292,7 @@ function _JS_Log_Dump(ptr, type) {
  case 5:
     setTimeout(function(){
         document.getElementById("pokemon-loading").style.display = "none";
-    }, 4000);
+    }, 5000);
   console.log(str);
   return;
  default:
@@ -14968,8 +14968,8 @@ function nullFunc_vjji(x) {
  err("Build with ASSERTIONS=2 for more info.");
  abort(x);
 }
-Module["wasmTableSize"] = 47632;
-Module["wasmMaxTableSize"] = 47632;
+Module["wasmTableSize"] = 47635;
+Module["wasmMaxTableSize"] = 47635;
 function invoke_dd(index, a1) {
  var sp = stackSave();
  try {
